@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" aria-hidden="true">
+  <!-- Inspired by user reference: cyan card (#90E0EF) + navy (#1A1A3F) + list rows -->
+  <path
+    fill="#90E0EF"
+    d="M 22 12 H 78 Q 84 12 84 18 V 76 Q 84 84 76 84 H 22 Q 14 84 14 76 V 18 Q 14 12 22 12 Z"
+  />
+  <g
+    fill="none"
+    stroke="#1A1A3F"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path
+      d="M 29 15 H 71 Q 78 15 78 22 V 74 Q 78 81 71 81 H 29 Q 22 81 22 74 V 23 Q 22 15 29 15 Z"
+    />
+  </g>
+  <g fill="#1A1A3F">
+    <circle cx="33" cy="35" r="3.2" />
+    <rect x="40.5" y="31.9" width="32" height="6.2" rx="3.1" />
+    <circle cx="33" cy="49.5" r="3.2" />
+    <rect x="40.5" y="46.4" width="30" height="6.2" rx="3.1" />
+    <circle cx="33" cy="64" r="3.2" />
+    <rect x="40.5" y="60.9" width="32" height="6.2" rx="3.1" />
+  </g>
+</svg>
