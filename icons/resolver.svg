@@ -1,0 +1,34 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#resolverBg)"/>
+  <!-- Left rounded rect — "name" -->
+  <rect x="96" y="192" width="128" height="128" rx="24" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Text-like bars inside the "name" side -->
+  <rect x="120" y="228" width="80" height="14" rx="7" fill="url(#resolverInline)" fill-opacity="0.8"/>
+  <rect x="120" y="256" width="64" height="14" rx="7" fill="url(#resolverInline)" fill-opacity="0.6"/>
+  <rect x="120" y="284" width="72" height="14" rx="7" fill="url(#resolverInline)" fill-opacity="0.8"/>
+
+  <!-- Arrow connecting name → address -->
+  <rect x="228" y="248" width="60" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.98"/>
+  <path d="M292 232 L336 256 L292 280 Z" fill="#FFFFFF" fill-opacity="0.98"/>
+
+  <!-- Right circle — "resolved address" (dot on target) -->
+  <circle cx="384" cy="256" r="64" fill="url(#resolverTargetGrad)"/>
+  <circle cx="384" cy="256" r="44" fill="url(#resolverBg)"/>
+  <circle cx="384" cy="256" r="20" fill="#FFFFFF" fill-opacity="0.98"/>
+
+  <defs>
+    <linearGradient id="resolverBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="resolverInline" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="resolverTargetGrad" x1="320" y1="192" x2="448" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+  </defs>
+</svg>

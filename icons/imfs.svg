@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#imfsBg)"/>
+  <!-- Vertical spine connecting the stacked files (Merkle chain) -->
+  <rect x="248" y="96" width="16" height="320" rx="8" fill="url(#imfsSpine)" fill-opacity="0.85"/>
+
+  <!-- Top file block (with folded corner) -->
+  <path d="M144 128 L336 128 L336 200 Q336 216 320 216 L144 216 Q128 216 128 200 L128 144 Q128 128 144 128 Z"
+        fill="#FFFFFF" fill-opacity="0.98"/>
+  <path d="M312 128 L336 152 L312 152 Z" fill="url(#imfsFoldGrad)"/>
+  <rect x="152" y="164" width="88" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.7"/>
+  <rect x="152" y="184" width="120" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.5"/>
+
+  <!-- Middle file block -->
+  <path d="M176 240 L368 240 L368 312 Q368 328 352 328 L176 328 Q160 328 160 312 L160 256 Q160 240 176 240 Z"
+        fill="#FFFFFF" fill-opacity="0.98"/>
+  <path d="M344 240 L368 264 L344 264 Z" fill="url(#imfsFoldGrad)"/>
+  <rect x="184" y="276" width="88" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.7"/>
+  <rect x="184" y="296" width="120" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.5"/>
+
+  <!-- Bottom file block -->
+  <path d="M144 352 L336 352 L336 424 Q336 440 320 440 L144 440 Q128 440 128 424 L128 368 Q128 352 144 352 Z"
+        fill="#FFFFFF" fill-opacity="0.98"/>
+  <path d="M312 352 L336 376 L312 376 Z" fill="url(#imfsFoldGrad)"/>
+  <rect x="152" y="388" width="88" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.7"/>
+  <rect x="152" y="408" width="120" height="12" rx="6" fill="url(#imfsInline)" fill-opacity="0.5"/>
+
+  <defs>
+    <linearGradient id="imfsBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="imfsSpine" x1="256" y1="96" x2="256" y2="416" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+    <linearGradient id="imfsFoldGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="imfsInline" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+  </defs>
+</svg>

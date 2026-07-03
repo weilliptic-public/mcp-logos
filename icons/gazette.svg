@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#gazetteBg)"/>
+  <!-- Newspaper: outer folded rectangle -->
+  <rect x="96" y="120" width="320" height="272" rx="16" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Fold line down the middle -->
+  <rect x="252" y="120" width="8" height="272" fill="url(#gazetteFold)" fill-opacity="0.6"/>
+  <!-- Masthead — bold band across the top -->
+  <rect x="120" y="144" width="272" height="28" rx="8" fill="url(#gazetteMasthead)"/>
+  <!-- Left column: image block + text lines -->
+  <rect x="120" y="196" width="120" height="56" rx="8" fill="url(#gazetteImage)"/>
+  <rect x="120" y="264" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="120" y="284" width="112" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="120" y="304" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="120" y="324" width="100" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="120" y="344" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="120" y="364" width="88" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <!-- Right column: text lines only -->
+  <rect x="272" y="196" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="272" y="216" width="104" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="272" y="236" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="272" y="256" width="96" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="272" y="276" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="272" y="296" width="112" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="272" y="316" width="120" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <rect x="272" y="336" width="104" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.55"/>
+  <rect x="272" y="356" width="80" height="10" rx="5" fill="url(#gazetteLine)" fill-opacity="0.75"/>
+  <defs>
+    <linearGradient id="gazetteBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="gazetteFold" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="gazetteMasthead" x1="120" y1="0" x2="392" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="gazetteImage" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CCBFF0"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="gazetteLine" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+  </defs>
+</svg>

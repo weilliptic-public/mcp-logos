@@ -1,0 +1,47 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#idregBg)"/>
+  <!-- ID card body -->
+  <rect x="88" y="152" width="336" height="208" rx="20" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Top color strip -->
+  <path d="M88 172 Q88 152 108 152 L404 152 Q424 152 424 172 L424 200 L88 200 Z" fill="url(#idregStrip)"/>
+  <!-- Portrait circle on the left -->
+  <circle cx="176" cy="272" r="52" fill="url(#idregPortraitRing)"/>
+  <circle cx="176" cy="272" r="42" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Silhouette head + shoulders -->
+  <circle cx="176" cy="258" r="18" fill="url(#idregSilhouette)"/>
+  <path d="M176 282 Q140 282 140 310 L212 310 Q212 282 176 282 Z" fill="url(#idregSilhouette)"/>
+  <!-- Name + designation lines on the right -->
+  <rect x="252" y="232" width="140" height="14" rx="7" fill="url(#idregLine)" fill-opacity="0.9"/>
+  <rect x="252" y="256" width="112" height="12" rx="6" fill="url(#idregLine)" fill-opacity="0.65"/>
+  <rect x="252" y="288" width="132" height="10" rx="5" fill="url(#idregLine)" fill-opacity="0.55"/>
+  <rect x="252" y="308" width="100" height="10" rx="5" fill="url(#idregLine)" fill-opacity="0.55"/>
+  <!-- Wallet-hash-style monogram at the bottom -->
+  <rect x="120" y="332" width="272" height="12" rx="6" fill="url(#idregHash)" fill-opacity="0.5"/>
+  <defs>
+    <linearGradient id="idregBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="idregStrip" x1="88" y1="0" x2="424" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="idregPortraitRing" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+    <linearGradient id="idregSilhouette" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="idregLine" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="idregHash" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#CCBFF0"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+  </defs>
+</svg>

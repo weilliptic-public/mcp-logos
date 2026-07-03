@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#registryBg)"/>
+  <!-- Clipboard body -->
+  <rect x="128" y="128" width="256" height="288" rx="24" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Clipboard clip -->
+  <rect x="208" y="104" width="96" height="48" rx="16" fill="url(#registryClip)"/>
+  <!-- Roster rows with tiny name-hash dots -->
+  <circle cx="176" cy="212" r="10" fill="url(#registryDot)"/>
+  <rect x="200" y="204" width="152" height="16" rx="8" fill="url(#registryLine)" fill-opacity="0.85"/>
+  <circle cx="176" cy="260" r="10" fill="url(#registryDot)"/>
+  <rect x="200" y="252" width="128" height="16" rx="8" fill="url(#registryLine)" fill-opacity="0.7"/>
+  <circle cx="176" cy="308" r="10" fill="url(#registryDot)"/>
+  <rect x="200" y="300" width="152" height="16" rx="8" fill="url(#registryLine)" fill-opacity="0.85"/>
+  <circle cx="176" cy="356" r="10" fill="url(#registryDot)"/>
+  <rect x="200" y="348" width="112" height="16" rx="8" fill="url(#registryLine)" fill-opacity="0.7"/>
+  <defs>
+    <linearGradient id="registryBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="registryClip" x1="208" y1="104" x2="304" y2="152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+    <linearGradient id="registryLine" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+    <linearGradient id="registryDot" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+  </defs>
+</svg>

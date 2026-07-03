@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rounded-square gradient background — same warm palette as icarus.svg -->
+  <rect width="512" height="512" rx="96" fill="url(#ledgerBg)"/>
+
+  <!-- Open ledger book, pictogram in white with subtle inner shadow -->
+  <!-- Book covers (left + right) -->
+  <path d="M112 152 Q112 136 128 136 L248 136 L248 400 L128 400 Q112 400 112 384 Z"
+        fill="#FFFFFF" fill-opacity="0.98"/>
+  <path d="M264 136 L384 136 Q400 136 400 152 L400 384 Q400 400 384 400 L264 400 Z"
+        fill="#FFFFFF" fill-opacity="0.98"/>
+
+  <!-- Center spine -->
+  <rect x="248" y="136" width="16" height="264" fill="url(#ledgerSpine)"/>
+
+  <!-- Ruled lines — left page -->
+  <rect x="140" y="180" width="88" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="140" y="212" width="72" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+  <rect x="140" y="244" width="88" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="140" y="276" width="60" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+  <rect x="140" y="308" width="80" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="140" y="340" width="52" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+
+  <!-- Ruled lines — right page -->
+  <rect x="284" y="180" width="88" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="284" y="212" width="72" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+  <rect x="284" y="244" width="88" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="284" y="276" width="60" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+  <rect x="284" y="308" width="80" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.75"/>
+  <rect x="284" y="340" width="52" height="8" rx="4" fill="url(#ledgerLine)" fill-opacity="0.55"/>
+
+  <defs>
+    <linearGradient id="ledgerBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="ledgerSpine" x1="256" y1="136" x2="256" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+    <linearGradient id="ledgerLine" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FA8455"/>
+      <stop offset="1" stop-color="#7A63BD"/>
+    </linearGradient>
+  </defs>
+</svg>

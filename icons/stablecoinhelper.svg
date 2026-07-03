@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#scBg)"/>
+  <!-- Coin outer rim -->
+  <circle cx="256" cy="248" r="132" fill="#FFFFFF" fill-opacity="0.98"/>
+  <circle cx="256" cy="248" r="116" fill="url(#scCoin)"/>
+  <!-- $ symbol -->
+  <path d="M256 176 L256 320 M296 200 Q296 184 272 184 L240 184 Q216 184 216 208 Q216 232 240 236 L272 244 Q296 248 296 272 Q296 296 272 296 L240 296 Q216 296 216 280"
+        stroke="#FFFFFF"
+        stroke-opacity="0.98"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+  <!-- Stability baseline / bar -->
+  <rect x="112" y="404" width="288" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.98"/>
+  <!-- Stability tick reading — flat line indicating stable peg -->
+  <path d="M132 388 L184 388 L204 372 L224 388 L248 388 L268 388 L288 388 L308 372 L328 388 L380 388"
+        stroke="url(#scPeg)"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
+  <defs>
+    <linearGradient id="scBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7B1"/>
+      <stop offset="0.55" stop-color="#FFA582"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="scCoin" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#FA8455"/>
+    </linearGradient>
+    <linearGradient id="scPeg" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#7A63BD"/>
+      <stop offset="1" stop-color="#CCBFF0"/>
+    </linearGradient>
+  </defs>
+</svg>
