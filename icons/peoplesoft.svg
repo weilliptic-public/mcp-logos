@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="80" height="80" rx="16" fill="#1C3461"/>
+  <!-- person left -->
+  <circle cx="28" cy="22" r="7" fill="#FFFFFF"/>
+  <path d="M14,46 C14,37.2 20.3,31 28,31 C31.2,31 34.2,32.1 36.5,34 C33.9,36.7 32,40.5 32,46 L32,50 L14,50 Z" fill="#FFFFFF"/>
+  <!-- person right -->
+  <circle cx="52" cy="22" r="7" fill="#F5A623"/>
+  <path d="M48,34 C50.3,32.1 53.3,31 56.5,31 C64.2,31 70.5,37.2 70.5,46 L70.5,50 L52,50 L52,46 C52,40.5 50.4,36.7 48,34 Z" fill="#F5A623"/>
+  <!-- connecting bar -->
+  <rect x="14" y="50" width="52" height="5" rx="2.5" fill="#FFFFFF" opacity="0.3"/>
+  <!-- PS label -->
+  <text x="40" y="70" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">PS</text>
+</svg>
