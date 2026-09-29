@@ -1,0 +1,67 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="96" fill="url(#styxBg)"/>
+
+  <!-- faint water ripple lines behind the coin -->
+  <path d="M64 372 Q160 356 256 372 T448 372" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="6" fill="none"/>
+  <path d="M64 400 Q160 384 256 400 T448 400" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="6" fill="none"/>
+
+  <!-- coin drop shadow -->
+  <ellipse cx="256" cy="278" rx="150" ry="150" fill="#000000" fill-opacity="0.18"/>
+
+  <!-- coin body -->
+  <circle cx="256" cy="264" r="148" fill="url(#coinFace)" stroke="url(#coinRim)" stroke-width="10"/>
+
+  <!-- milled edge dots -->
+  <g fill="#5B3A16" fill-opacity="0.55">
+    <circle cx="256" cy="122" r="5"/>
+    <circle cx="325" cy="140" r="5"/>
+    <circle cx="378" cy="187" r="5"/>
+    <circle cx="400" cy="253" r="5"/>
+    <circle cx="392" cy="322" r="5"/>
+    <circle cx="352" cy="378" r="5"/>
+    <circle cx="290" cy="405" r="5"/>
+    <circle cx="222" cy="405" r="5"/>
+    <circle cx="160" cy="378" r="5"/>
+    <circle cx="120" cy="322" r="5"/>
+    <circle cx="112" cy="253" r="5"/>
+    <circle cx="134" cy="187" r="5"/>
+    <circle cx="187" cy="140" r="5"/>
+  </g>
+
+  <!-- inner rim groove -->
+  <circle cx="256" cy="264" r="122" fill="none" stroke="#5B3A16" stroke-opacity="0.35" stroke-width="4"/>
+
+  <!-- relief: ferry boat with oar, embossed on the coin face -->
+  <g stroke="#5B3A16" stroke-opacity="0.75" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- hull -->
+    <path d="M158 296 Q256 336 354 296 L332 322 Q256 348 180 322 Z" fill="#5B3A16" fill-opacity="0.18"/>
+    <!-- mast -->
+    <path d="M256 296 L256 200"/>
+    <!-- oar -->
+    <path d="M198 230 L308 178"/>
+    <ellipse cx="198" cy="230" rx="14" ry="7" transform="rotate(-25 198 230)"/>
+  </g>
+
+  <!-- water line beneath hull -->
+  <path d="M150 300 Q256 316 362 300" stroke="#5B3A16" stroke-opacity="0.4" stroke-width="5" fill="none"/>
+
+  <!-- top highlight sheen -->
+  <path d="M140 168 Q256 118 372 168" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+  <defs>
+    <linearGradient id="styxBg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#241A4A"/>
+      <stop offset="0.55" stop-color="#152A44"/>
+      <stop offset="1" stop-color="#0A1B22"/>
+    </linearGradient>
+    <linearGradient id="coinFace" x1="108" y1="116" x2="404" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6DE9B"/>
+      <stop offset="0.5" stop-color="#E0AA55"/>
+      <stop offset="1" stop-color="#A8702D"/>
+    </linearGradient>
+    <linearGradient id="coinRim" x1="108" y1="116" x2="404" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF3CE"/>
+      <stop offset="1" stop-color="#8A5A24"/>
+    </linearGradient>
+  </defs>
+</svg>
